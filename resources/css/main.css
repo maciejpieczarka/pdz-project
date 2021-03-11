@@ -1,0 +1,23 @@
+/* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font-color: #fff; /*Edytując tę linijkę kodu - zmieni się kolor czcionki w kazdym miejscu na stronie gdzie jest użyta ta zmienna */
+    --main-font: 'Roboto', sans-serif;
+}
+
+html {
+    font-family: var(--main-font); /*Zmienna z główną czcionką*/
+    font-size: 10px;
+    color: var(--main-font-color); /*Uzyta zmienna z kolorem*/
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
