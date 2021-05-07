@@ -6,31 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./resources/css/reset.css"> <!--Reset styli css-->
     <link rel="stylesheet" href="./resources/css/main.css"> <!--Ogolny arkusz styli-->
+    <script src="./resources/js/nav.js" defer></script>
     <title>Pdz Project</title>
 </head>
 <body>
-    <!-- Miejsce na logo i nawigacje -->
+    <!-- Nawigacja i logo -->
     <header>
-        <a href="#" class="logo">Logo</a>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About AI</a></li>
-            <li><a href="#">Learning AI</a></li>
-            <li><a href="#">AI Examples</a></li>
-            <li><a href="#">Authors</a></li>
-        </ul>
+       <div class="container">
+           <nav class="nav">
+               <!-- Hamburger button -->
+               <div class="menu-toggle">
+                   <i class="fas fa-bars"></i>
+                   <i class="fas fa-times"></i>
+               </div>
+
+               <!-- Logo -->
+               <a href="#" class="logo">PDZ-P5</a>
+               
+               <!-- Nav items -->
+               <ul class="nav-list">
+                   <li class="nav-item">
+                       <a href="#home" class="nav-link">Home</a>
+                    </li>
+
+                   <li class="nav-item">
+                       <a href="#about" class="nav-link">About AI</a>
+                    </li>
+
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Training AI</a>
+                    </li>
+
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">AI Examples</a>
+                    </li>
+
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">Authors</a>
+                    </li>
+               </ul>
+           </nav>
+       </div>
     </header>
 
-    <!-- Sekcja 1 -->
-    <section class="home" id="home"></section>
+        <!-- Sekcja Home -->
+        <section class="home" id="home">
+            <div class="container">
+                <h2 class="sub-headline">
+                    <span class="first-letter">A</span>I
+                </h2>
+                <h1 class="headline">Lorem ipsum</h1>
+                <div class="headline-description">
+                    <div class="separator">
+                        <div class="line line-left"></div>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                        <div class="line line-right"></div>
+                    </div>
 
-    <!-- Sekcja 2 -->
-    <section></section>
+                    <div class="single-animation">
+                        <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                        <a href="#about" class="btn cta-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Sekcja 3 -->
-    <section></section>
+        <!-- Sekcja about Ai -->
+        <section class="about" id="about">
+
+        </section>
+
+        <!-- Sekcja 3 -->
+        <section></section>
 
     <!-- Stopka -->
     <footer></footer>
