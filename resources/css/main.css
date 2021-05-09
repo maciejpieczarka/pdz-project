@@ -8,7 +8,7 @@
 :root {
     --main-font-color: #fff; /*Edytując tę linijkę kodu - zmieni się kolor czcionki w kazdym miejscu na stronie gdzie jest użyta ta zmienna */
     --dark-font-color: #1b1b1b;
-    --hover-color: rgb(11, 135, 172);
+    --hover-color: rgb(97, 212, 247);
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Merriweather', serif;
 }
@@ -27,7 +27,7 @@ a {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de);
+    max-width: 100%;
 }
 
 .container {
@@ -62,6 +62,12 @@ header {
     right: 2.5rem;
     cursor: pointer;
     z-index: 1500;
+    transition: color .3s;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    color: var(--hover-color);
 }
 
 .fa-times {
@@ -72,7 +78,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 70%;
     height: 100vh;
     background-color: var(--dark-font-color);
     padding: 4.4rem;
@@ -161,7 +167,8 @@ header {
     line-height: .8;
     font-size: 8.5rem;
     font-family: var(--secondary-font);
-    color: rgb(139, 245, 204);
+    /* color: rgb(139, 245, 204); */
+    color: var(--hover-color);
 }
 
 .first-letter {
@@ -186,7 +193,7 @@ header {
 
 .line {
     width: 100%;
-    max-width: 12.6rem; /*Do zmiany szerokość*/
+    max-width: 13.3rem; /*Do zmiany szerokość*/
     height: .35rem;
     background-color: #fff;
     position: relative;
@@ -213,7 +220,7 @@ header {
 
 .asterisk {
     font-size: 1.2rem;
-    color: rgb(139, 245, 236);
+    color: var(--hover-color);
     margin: 0 1.6rem;
 }
 
@@ -239,13 +246,13 @@ header {
     padding: .9rem 1.8rem;
     color: var(--dark-font-color);
     border-radius: .4rem;
-    transition: background-color .5s;
+    transition: background-color .3s;
     margin-top: 1rem;
 }
 
 .cta-btn:hover,
 .cta-btn:focus {
     color: #fff;
-    background-color: var(--dark-font-color);
+    background-color: var(--hover-color);
 }
 
