@@ -1,8 +1,8 @@
 # Zadania
 - [x] Template kodu i przygotowanie repo do pracy
-- [ ] Nawigacja i zarys sekcji **(lorem ipsum ebe ebe)**
-- [ ] Oskryptowanie nawigacji i ew. jakichs innych rzeczy
-- [ ] Zdjecia/ilustracje **(Tla, ikony)** i css
+- [x] Nawigacja i zarys sekcji **(lorem ipsum ebe ebe)**
+- [x] Oskryptowanie nawigacji i ew. jakichs innych rzeczy
+- [x] Zdjecia/ilustracje **(Tla, ikony)** i css
 - [ ] Dodanie animacji na scrollu **(AOS.js)**
 
 # Pomoc do strony
