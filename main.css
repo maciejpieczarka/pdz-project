@@ -16,6 +16,7 @@ html {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -214,7 +215,7 @@ nav {
 .ai-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;    
+    grid-gap: 2.5rem;
 }
 
 .ai-grid-item {
@@ -424,6 +425,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
     padding: 2rem 0;
     text-align: center;
@@ -477,19 +479,20 @@ footer h3 {
 .author {
     text-align: center;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .author > p {
     font-weight: bold;
 }
 
-.author > i {
+.author i {
     font-size: 3rem;
     transition: font-size 100ms ease-in-out;
 }
 
-.author:hover > i {
-    font-size: 3.2rem;
+.author:hover i {
+    color: #eb648c;
 }
 
 /* Media queries */
@@ -540,6 +543,10 @@ footer h3 {
 
     .companies .title-heading {
         transform: translateY(20%);
+    }
+
+    .companies {
+        padding: 20rem 0;
     }
 }
 
@@ -650,8 +657,14 @@ footer h3 {
         background: url('./images/wave-large.png');
         background-size: cover;
     }
+}
 
-    .companies {
-        padding: 20rem 0;
+@media screen and (min-width: 1200px) {
+    .home {
+        height: 75vh;
+    }
+
+    .home .main-message {
+        transform: translateY(50%);
     }
 }
