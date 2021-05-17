@@ -242,16 +242,16 @@ nav {
 }
 
 /* Change class names */
-.alexa {
-    background: url('./images/stars.jpg') center no-repeat;
+.assistants {
+    background: url('./images/grid-item-bg.jpg') left no-repeat;
 }
 
-.netflix {
-    background: url('./images/hiking.jpg') center no-repeat;
+.cars {
+    background: url('./images/grid-item-bg.jpg') center no-repeat;
 }
 
-.translator {
-    background: url('./images/camping.jpg') center no-repeat;
+.translators {
+    background: url('./images/grid-item-bg.jpg') right no-repeat;
 }
 
 .ai-grid-item i {
@@ -264,6 +264,10 @@ nav {
     font-size: 1.7rem;
     text-transform: uppercase;
     margin: 2rem 0;
+}
+
+.ai-grid-item p {
+    min-height: 23rem;
 }
 
 /* About ai section */
@@ -326,17 +330,17 @@ nav {
 }
 
 .ai {
-    background: url('./images/stars.jpg') center no-repeat;
+    background: url('./images/company-grid-item.jpg') bottom no-repeat;
 }
 
 .ml {
-    background: url('./images/stars.jpg') center no-repeat;
+    background: url('./images/company-grid-item.jpg') bottom no-repeat;
 }
 
 /* Companies section styles */
 .companies {
     width: 100%;
-    background: linear-gradient(135deg, rgba(49, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%), url(./images/home-bg.jpg) center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(49, 24, 131, .9) 0%, rgba(72, 56, 149, .8) 100%), url(./images/companies-bg.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
